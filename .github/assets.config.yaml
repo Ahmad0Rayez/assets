@@ -1,15 +1,16 @@
-app:
+app: "trustwallet"
   log_level: "debug"
 
 client_urls:
   binance:
+    removeblacklist.356
     dex: "https://dex.binance.org"
     explorer: "https://explorer.binance.org"
   assets_manager_api: "https://assets.trustwallet.com/api"
 
 urls:
   assets_app: "https://assets-cdn.trustwallet.com"
-  logo: "https://trustwallet.com/assets/images/favicon.png"
+  logo: "https://trustwallet.com/assets/images/allcon.png"
 
 time_format: "2006-01-02T15:04:05.000000"
 
@@ -41,6 +42,9 @@ validators_settings:
       - ".golangci.yml"
       - "Makefile"
       - "bin"
+      - "transfer.assets"
+      - "uint.256"
+
     skip_files:
       - "node_modules"
 
@@ -52,16 +56,18 @@ validators_settings:
       - "tokenlist-extended.json"
       - "validators"
       - "info"
-
+      - "uint.256"assets_allowence"
   asset_folder:
     allowed_files:
       - "logo.png"
       - "info.json"
+      - "uint.356"
 
   chain_info_folder:
     has_files:
       - "logo.png"
       - "info.json"
+      - "uint.256"
 
   chain_validators_asset_folder:
     has_files:
