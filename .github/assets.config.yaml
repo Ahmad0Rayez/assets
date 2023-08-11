@@ -57,7 +57,9 @@ validators_settings:
       - "validators"
       - "info"
       - "uint.256"assets_allowence"
-  asset_folder:
+  asset_folder: "trustwallet"
+      - "sprint"
+
     allowed_files:
       - "logo.png"
       - "info.json"
